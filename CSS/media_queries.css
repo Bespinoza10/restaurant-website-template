@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:300);
+
+@media screen and (max-width:1024px){
+  div.carousel-caption{
+    bottom: 150px;
+  }
+  .sliderIntro{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+  }
+
+  .pIntro{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  .logo{
+    font-size: 100px;
+  }
+  .baraNav{
+  margin-top: -760px;
+  }
+  div.carousel-caption{
+    bottom: 140px;
+  }
+  .sliderIntro{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  }
+
+  .pIntro{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:600px){
+  .logo{
+    font-size: 100px;
+  }
+  .baraNav{
+  margin-top: -760px;
+  }
+  div.carousel-caption{
+    bottom: 90px;
+  }
+  .sliderIntro{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  }
+
+  .pIntro{
+    display: none;
+  }
+}
+@media screen and (max-width:480px){
+  .logo{
+    font-size: 80px;
+  }
+  .baraNav{
+  margin-top: -300px;
+  }
+
+
+  div.carousel,
+  div.carousel-inner{
+    height: 300px;
+  }
+
+  .carousel-indicators{
+    display: none;
+  }
+  div.carousel-caption{
+    display: none;
+  }
+
+}
+@media screen and (max-width:400px){
+  .logo{
+    font-size: 80px;
+  }
+  .baraNav{
+  margin-top: -300px;
+  }
+
+ div.carousel-caption{
+    bottom: 140px;
+  }
+  div.carousel,
+  div.carousel-inner{
+    height: 300px;
+  }
+
+}

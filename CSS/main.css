@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:300);
+
+
+.carousel-control.left, .right{
+   display: none;
+  }
+.sliderIntro{
+  font-family: 'Tangerine', cursive;
+  font-size: 70px;
+}
+
+.pIntro{
+  font-size: 15px;
+  font-family: 'Exo 2', sans-serif;
+}
+    .Me{
+      font-size: 15px;
+      font-family: 'Exo 2', sans-serif;
+      color: #2ebc58;
+    }
+    .xi{
+      font-size: 15px;
+      font-family: 'Exo 2', sans-serif;
+      color: #ffffff;
+    }
+    .can{
+      font-size: 15px;
+      font-family: 'Exo 2', sans-serif;
+      color: #ff0000;
+    }
+
+
+.logo{
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  text-align: center;
+  color:#ffffff;
+}
+
+.baraNav{
+  margin-top: -730px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+ text-align: center;
+}
+
+
+div.carousel-caption{
+    bottom: 250px;
+}
+
+/*****************************
+**** * OUR SPECIALTIES * *****
+*****************************/
+
+.header{
+  margin-top: 600px;
+}
+.h1s{
+  font-family: 'Tangerine', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+.h2s{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
