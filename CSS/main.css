@@ -73,3 +73,42 @@ div.carousel-caption{
   font-size: 15px;
   text-align: center;
 }
+
+.textImg{
+  display: none;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: -100;
+  margin-left:-10px;
+
+}
+.imgText:hover .textImg{
+  display: block;
+
+}
+.queso{
+  display: none;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  color: #1db64b;
+  background: #fff;
+  text-align: center;
+  margin-left: -10px;
+  margin-top: -100px;
+}
+
+.chori:hover .queso{
+  display: block;
+}
+
+.specialties{
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+}

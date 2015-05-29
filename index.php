@@ -50,7 +50,7 @@
   <!--========= NAV! ==========
   ==============================-->
 
-    <nav class="navbar navbar-default baraNav" >
+    <nav class="navbar navbar-default baraNav">
       <div class="container-fluid">
         <h1 class="logo">Las Fiestas</h1>
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -64,7 +64,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+        <div class="collapse navbar-collapse " data-spy="affix" data-offset-top="60" data-offset-bottom="200">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
             <li class="dropdown">
@@ -73,13 +73,9 @@
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-            <li><a href="#">Our Menu</a></li>
+            <li><a href="http://www.google.com/">Our Menu</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -89,7 +85,30 @@
 
   <!--========= BODY! ==========
   ==============================-->
-
+    <div class="container">
+      <div class="col-lg-12">
+        <h1 class="h1s header">
+          Our Specialties
+        </h1>
+        <h2 class="h2s">
+          Nuestras Especialidades
+        </h2>
+        <div class="col-sm-11 col-md-11 col-lg-11 specialties">
+          <div class="col-sm-3 col-md-3 col-lg-3 imgText col-md-offset-1 col-lg-offset-1 smallvs">
+            <img src="IMG/tamales.jpg" style="width: 200px; height: 160px;">
+            <span class="textImg">Tamales</span>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3 chori col-md-offset-1 col-lg-offset-1 smallvs">
+            <img src="IMG/choriqueso.jpg" style="width: 200px; height: 160px;">
+            <span class="queso">Choriqueso</span>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3 imgText col-md-offset-1 col-lg-offset-1 smallvs">
+            <img src="IMG/sopes.jpg" style="width: 200px; height: 160px;">
+            <span class="textImg">Sopes</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

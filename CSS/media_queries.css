@@ -13,6 +13,37 @@
   .pIntro{
     display: none;
   }
+  .header{
+    margin-top: 350px;
+  }
+  .textImg{
+    margin-top: -100;
+    width: 80%;
+
+  }
+
+  .textImg{
+    display: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: -100;
+    margin-left:20px;
+
+  }
+  .queso{
+    display: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: #1db64b;
+    background: #fff;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+
+
 }
 
 
@@ -93,5 +124,16 @@
   div.carousel-inner{
     height: 300px;
   }
-
+  .header{
+    margin-top: 50px;
+  }
+  .h1s{
+    font-size: 40px;
+  }
+  .h2s{
+    font-size: 10px;
+  }
+  .smallvs{
+    margin-bottom: 10px;
+  }
 }
